@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: "DEC Terminal Modern";
+    src: local("_decterm.tff"), url("fontes/_decterm.ttf");
+}
+
 h3, h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -20,6 +25,20 @@ body {
     background-color: black;
 }
 
+form {
+    text-align: center;
+}
+
+
+input {
+    font-family: monospace;
+    background-color: black;
+    color: green;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
 
 #texto-sobre {
     position: absolute;
@@ -35,3 +54,16 @@ body {
 .photo {
     float: right;
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #52779d;
+}
+
+::-webkit-input-placeholder {
+    color: green;
+ }
