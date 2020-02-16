@@ -31,14 +31,24 @@ form {
 
 
 input {
-    font-family: monospace;
+    position: absolute;
+    right: 38%;
+    top: 30%;
+    font-family: DEC Terminal Modern;
     background-color: black;
-    color: green;
+    color: #559EB5;
+    border-color: #559EB5;
     border-radius: 8px;
+    border-style: ridge;
     text-align: center;
-    width: 200px;
+    width: 300px;
 }
 
+#msg-contato {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
 
 #texto-sobre {
     position: absolute;
@@ -65,5 +75,5 @@ input {
 }
 
 ::-webkit-input-placeholder {
-    color: green;
+    color: #559EB5;
  }
