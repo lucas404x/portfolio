@@ -30,10 +30,8 @@ form {
 }
 
 
-input {
+input, textarea {
     position: absolute;
-    right: 38%;
-    top: 30%;
     font-family: DEC Terminal Modern;
     background-color: black;
     color: #559EB5;
@@ -44,16 +42,36 @@ input {
     width: 300px;
 }
 
-#msg-contato {
-    position: absolute;
-    left: 30%;
-    top: 15%;
-}
-
 #texto-sobre {
     position: absolute;
     left: 63%;
     color: #DBEDFF;
+}
+
+
+#email {
+    right: 38%;
+    top: 35%;
+}
+
+#assunto {
+    right: 38%;
+    top: 42%;
+}
+
+#msg {
+    resize: none;
+    text-align: center;
+    height: 100px;
+    right: 38%;
+    top: 49%;
+}
+
+
+#enviar {
+    float: left;
+    right: 38%;
+    top: 67%;
 }
 
 .link_pos {
@@ -63,6 +81,12 @@ input {
 
 .photo {
     float: right;
+}
+
+.msg-contato {
+    position: absolute;
+    left: 30%;
+    top: 15%;
 }
 
 ::-webkit-scrollbar {
