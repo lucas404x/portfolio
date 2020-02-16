@@ -1,8 +1,14 @@
 
-h3 {
+h3, h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+#titulo-sobre {
+    font-style: italic;
+    opacity: 0.8;
+    color: #52779d;
 }
 
 p {
@@ -14,7 +20,18 @@ body {
     background-color: black;
 }
 
+
+#texto-sobre {
+    position: absolute;
+    left: 63%;
+    color: #DBEDFF;
+}
+
 .link_pos {
     position: absolute;
     right: 60px;
+}
+
+.photo {
+    float: right;
 }
