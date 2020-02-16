@@ -13,3 +13,8 @@ p {
 body {
     background-color: black;
 }
+
+.link_pos {
+    position: absolute;
+    right: 60px;
+}
