@@ -10,11 +10,6 @@ h3, h1 {
     text-align: center;
 }
 
-#titulo-sobre {
-    font-style: italic;
-    opacity: 0.8;
-    color: #52779d;
-}
 
 p {
     font-family: 'Open Sans', sans-serif;
@@ -42,6 +37,11 @@ input, textarea, #contador {
     width: 300px;
 }
 
+#titulo-sobre {
+    font-style: italic;
+    opacity: 0.8;
+    color: #52779d;
+}
 
 #email {
     right: 38%;
@@ -73,6 +73,7 @@ input, textarea, #contador {
     border: none;
 }
 
+
 .link_pos {
     position: absolute;
     right: 60px;
@@ -86,6 +87,12 @@ input, textarea, #contador {
     position: absolute;
     left: 30%;
     top: 15%;
+}
+
+.texto-portfolio {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ::-webkit-scrollbar {
