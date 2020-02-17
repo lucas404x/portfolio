@@ -53,7 +53,7 @@
     <form action=""> 
       <input id="email" type="email" placeholder="Email">
       <input id="assunto" type="text" placeholder="Assunto">
-      <textarea data-ls-module='charCounter' id="msg" placeholder="Digite sua mensagem" maxlength="100" rows="4" cols="30" onblur="voltarOriginal()" onfocus="alterarAlinhamento()" onkeypress="limite()"></textarea>
+      <textarea data-ls-module='charCounter' id="msg" placeholder="Digite sua mensagem" maxlength="99" rows="4" cols="30" onblur="voltarOriginal()" onfocus="alterarAlinhamento()" onkeypress="limite()" onkeydown="backsp_limite()"></textarea>
       <span id="contador">0/100</span>
       <input id="enviar" type="button" value="Enviar">
     </form>
