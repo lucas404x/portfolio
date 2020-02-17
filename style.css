@@ -42,12 +42,6 @@ input, textarea, #contador {
     width: 300px;
 }
 
-#texto-sobre {
-    position: absolute;
-    left: 63%;
-    color: #DBEDFF;
-}
-
 
 #email {
     right: 38%;
