@@ -15,7 +15,10 @@
         <!-- outros estilos -->
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans&display=swap" rel="stylesheet">
+        <script>
 
+        document.getElementById("contador").innerHTML = `${text.value.length}/100`;
+        </script>
     <title>Contate-me</title>
   </head>
   <body>
@@ -50,10 +53,11 @@
     <form action=""> 
       <input id="email" type="email" placeholder="Email">
       <input id="assunto" type="text" placeholder="Assunto">
-      <textarea id="msg" placeholder="Digite sua mensagem" maxlength="100" rows="4" cols="30" onblur="voltarOriginal()" onfocus="alterarAlinhamento()"></textarea>
+      <textarea data-ls-module='charCounter' id="msg" placeholder="Digite sua mensagem" maxlength="100" rows="4" cols="30" onblur="voltarOriginal()" onfocus="alterarAlinhamento()" onkeypress="limite()"></textarea>
+      <span id="contador">0/100</span>
       <input id="enviar" type="button" value="Enviar">
-
     </form>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

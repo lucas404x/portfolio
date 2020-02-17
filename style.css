@@ -30,7 +30,7 @@ form {
 }
 
 
-input, textarea {
+input, textarea, #contador {
     position: absolute;
     font-family: DEC Terminal Modern;
     background-color: black;
@@ -68,10 +68,15 @@ input, textarea {
 }
 
 
-#enviar {
+#enviar, #contador {
     float: left;
     right: 38%;
-    top: 67%;
+    top: 70%;
+}
+
+#contador {
+    top: 65%;
+    border: none;
 }
 
 .link_pos {
