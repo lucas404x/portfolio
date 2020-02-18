@@ -49,9 +49,9 @@ input, textarea, #contador {
 
 #texto-divulgacao {
     position: absolute;
-    top: 90%;
-    right: 55%;
-    opacity: 0.8;
+    top: 87%;
+    right: 50%;
+    opacity: 0.7;
     color: white;
     font-size: 20px;
     font-family: "Great-Wishes";
@@ -59,9 +59,10 @@ input, textarea, #contador {
 
 #seta-divulgacao {
     position: absolute;
-    top: 95%;
-    right: 45%;
-    width: 100px;
+    top: 91%;
+    right: 42%;
+    width: 200px;
+    opacity: 0.7;
 }
 
 #titulo-sobre {
@@ -139,6 +140,7 @@ input, textarea, #contador {
     right: -30px;
     top: -30px;
 }
+
 
 .msg-contato {
     position: absolute;
