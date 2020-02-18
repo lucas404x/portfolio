@@ -9,6 +9,11 @@
     src: local("ADAM.CG\ PRO.otf"), url("fontes/ADAM.CG\ PRO.otf");
 }
 
+@font-face {
+    font-family: "Great-Wishes";
+    src: local("Great\ Wishes.otf"), url("fontes/Great\ Wishes.otf");
+}
+
 h3, h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -40,6 +45,23 @@ input, textarea, #contador {
     border-style: ridge;
     text-align: center;
     width: 300px;
+}
+
+#texto-divulgacao {
+    position: absolute;
+    top: 90%;
+    right: 55%;
+    opacity: 0.8;
+    color: white;
+    font-size: 20px;
+    font-family: "Great-Wishes";
+}
+
+#seta-divulgacao {
+    position: absolute;
+    top: 95%;
+    right: 45%;
+    width: 100px;
 }
 
 #titulo-sobre {
@@ -109,6 +131,10 @@ input, textarea, #contador {
 
 
 .photo {
+    float: right;
+}
+
+#photo {
     position: absolute;
     right: -30px;
     top: -30px;
