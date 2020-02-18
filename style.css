@@ -79,18 +79,39 @@ input, textarea, #contador {
 }
 
 
-.github {
+#github, #fb, #linkedin, .github, .fb {
     position: absolute;
+}
+
+#fb {
+    top: 96.5%;
+    right: 28%;
+}
+
+#github {
+    top: 96.5%;
+    right: 22.5%;
+}
+
+
+#linkedin {
+    top: 96.5%;
+    right: 17%;
+}
+
+.github {
     right: 60px;
 }
 
 .fb {
-    position: absolute;
     right: 105px;
 }
 
+
 .photo {
-    float: right;
+    position: absolute;
+    right: -30px;
+    top: -30px;
 }
 
 .msg-contato {
@@ -118,7 +139,7 @@ input, textarea, #contador {
     -ms-transform: matrix( 1.04866304815903,0,0,1.04866304815903,0,0);
     position: absolute;
     left: 100px;
-    top: 291.838px;
+    top: 220px;
     z-index: 3;
   }
   
@@ -133,7 +154,7 @@ input, textarea, #contador {
     transform: matrix( 2.0670434179858,0,0,2.0670434179858,0,0);
     position: absolute;
     left: 160px;
-    top: 218.5px;
+    top: 130px;
     z-index: 4;
   }
 
