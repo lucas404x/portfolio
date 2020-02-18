@@ -65,18 +65,23 @@ input, textarea, #contador {
 #enviar, #contador {
     float: left;
     right: 38%;
-    top: 70%;
+    top: 74%;
 }
 
 #contador {
-    top: 65%;
+    top: 68%;
     border: none;
 }
 
 
-.link_pos {
+.github {
     position: absolute;
     right: 60px;
+}
+
+.fb {
+    position: absolute;
+    right: 105px;
 }
 
 .photo {
@@ -94,6 +99,38 @@ input, textarea, #contador {
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+._lucas404x {
+    font-size: 50px;
+    font-family: "ADAM.CG PRO";
+    letter-spacing: 1rem;
+    color: #559eb5;
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 1.04866304815903,0,0,1.04866304815903,0,0);
+    transform: matrix( 1.04866304815903,0,0,1.04866304815903,0,0);
+    -ms-transform: matrix( 1.04866304815903,0,0,1.04866304815903,0,0);
+    position: absolute;
+    left: 100px;
+    top: 291.838px;
+    z-index: 3;
+  }
+  
+  .portfolio {
+    font-size: 50px;
+    font-family: "ADAM.CG PRO";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 2.0670434179858,0,0,2.0670434179858,0,0);
+    -webkit-transform: matrix( 2.0670434179858,0,0,2.0670434179858,0,0);
+    transform: matrix( 2.0670434179858,0,0,2.0670434179858,0,0);
+    position: absolute;
+    left: 160px;
+    top: 218.5px;
+    z-index: 4;
+  }
 
 ::-webkit-scrollbar {
     width: 7px;
